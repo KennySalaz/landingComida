@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section__2 {}
+
+.section__2 hgroup.title-generals {
+    text-align: center;
+}
+
+hgroup.title-generals h2 {
+    color: #000;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+hgroup.title-generals p {
+    color: #FF6868;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+
+.section__2_cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 130px;
+
+}
+
+.section__2_cards__card {
+    width: 100%;
+    height: 270px;
+    background: white;
+    box-shadow: 2px 10px 30px 0px #0000001a;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section__2_cards__card img {}
+
+.card-description {}
+
+.card-img {
+    background-color: #C1F1C6;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.card-description {}
+
+.card-description p {
+    text-align: center;
+    padding: 5px 0px;
+
+}
+
+.card-description__texto-1 {
+    color: #1E1E1E;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-description__texto-2 {
+    color: #555;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.section__3__title hgroup {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.section__3__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.section__3__title_buttons-1 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 9px 4px #00000033;
+
+}
+
+.section__3__title_buttons-2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #39DB4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 9px 4px #00000033;
+
+}
+
+.section__3__title_buttons-2 svg {
+    transform: rotate(180deg);
+}
+
+.section__3__title_buttons {
+    display: flex;
+    gap: 45px;
+}
